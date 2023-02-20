@@ -1,5 +1,17 @@
 # -Chatbot-com-python
-Desenvolver um  Chatbot com python para responder perguntar na área tributária
+Desenvolver um  Chatbot com python para responder perguntar na área tributária.
+
+Usar técnicas de processamento de linguagem natural (NLP) pode ajudar a melhorar a precisão e relevância das respostas geradas pelo chatbot. Existem diversas bibliotecas de NLP em Python que podem ser usadas para implementar essas técnicas. Algumas das bibliotecas mais populares incluem:
+
+spaCy: uma biblioteca de NLP para Python que oferece recursos avançados, como análise sintática, reconhecimento de entidades nomeadas e vetores de palavras pré-treinados.
+NLTK: a biblioteca de processamento de linguagem natural mais conhecida em Python, com recursos para tokenização, análise de sintaxe, classificação de texto e muito mais.
+TextBlob: uma biblioteca de NLP fácil de usar que oferece recursos para processamento de texto, análise de sentimento, classificação de texto e muito mais.
+gensim: uma biblioteca de NLP para modelagem de tópicos e análise de semântica latente.
+Para usar essas bibliotecas com o seu chatbot, você precisará treinar o modelo com dados de treinamento relevantes para o tipo de perguntas e respostas que você deseja que o chatbot entenda e responda. Você também pode usar modelos pré-treinados disponíveis na web para alguns casos de uso comuns, como reconhecimento de entidades nomeadas e análise de sentimento.
+
+Em seguida, você pode integrar a biblioteca de NLP escolhida em seu chatbot, de modo que ele possa compreender as perguntas do usuário e gerar respostas mais precisas e relevantes. Por exemplo, você pode usar a biblioteca spaCy para analisar a entrada de texto do usuário e identificar entidades nomeadas relevantes, como locais, pessoas ou empresas. Com base nessas entidades, o chatbot pode gerar respostas mais precisas e personalizadas.
+
+Lembre-se de que a implementação de técnicas de NLP pode ser complexa e requer um conhecimento avançado de linguística e programação. Se você é novo em NLP, pode ser útil começar com bibliotecas mais fáceis de usar, como o TextBlob, antes de avançar para bibliotecas mais avançadas, como spaCy ou NLTK.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
